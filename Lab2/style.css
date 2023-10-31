@@ -1,0 +1,40 @@
+body{
+    background-color:gray;
+    color: white;
+}
+.headers{
+    color: cornflowerblue;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inline{
+    color: goldenrod;
+}
+.topmost{
+    font-size: 6vh;
+}
+
+.movies{
+    list-style-type: decimal;
+}
+a:visited { 
+    color: #FF0000;  }
+a:link{
+    color: #FF0000;  
+}
+
+.statement::first-letter{
+    font-size: 4vh;
+}
+a {
+    text-decoration: none;
+  }
+
+.moviedetail{
+    list-style-type: none;
+}  
+.movieheading{
+    color: yellow;
+}
