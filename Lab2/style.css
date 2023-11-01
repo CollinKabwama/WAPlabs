@@ -38,3 +38,8 @@ a {
 .movieheading{
     color: yellow;
 }
+ol{
+    display: flex;
+
+    flex-direction: column-reverse;
+}
