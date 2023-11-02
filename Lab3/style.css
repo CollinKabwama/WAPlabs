@@ -1,0 +1,81 @@
+
+.logo {
+    position: absolute;
+    top: -5px;
+    left: -2px;
+    padding: 10px 20px;
+    height: 60px;
+    width: 60px;
+}
+
+
+
+.main{
+position: relative; 
+border: 2px solid black;
+margin-left: auto;
+margin-right: auto;
+width: 75%;
+height: 520px;
+
+}
+table, th, td {
+    border: 1px solid;
+}
+td{
+    height: 40px;; 
+    text-align: center; 
+
+}
+table{
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}
+p{
+    margin-left: 3%;
+}
+
+.top{
+display: flex;
+align-items: center; /* Vertically center children within the container */
+justify-content: center;
+border-bottom: 2px solid black;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 67px;
+text-align: center; 
+vertical-align: middle;
+}
+
+
+
+.logout {
+    position: absolute;
+    top: 19px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.order {
+    position: absolute;
+    bottom: 10px;
+    right: 40px;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.welcome{
+    display: block;
+    height: 1%;
+    font-size: 20px;
+}
