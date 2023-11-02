@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping cart</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="customstyle.css" rel="stylesheet" type="text/css" media="screen, projection"/>
+
+    <title>Shopping cart</title>
 
 </head>
 <body>
@@ -19,11 +20,15 @@
         </div>
         <p>Product List</p>
         <table class="product">
-            <thead>  
-                <th>Name</th>
-                <th>Price</th>
-                <th>Stock</th>
-                <th>Actions</th>
+            <thead> 
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+
+                </tr> 
+                
             </thead> 
             <tbody>
                 <tr>
@@ -50,10 +55,14 @@
         <p>Your Shopping cart</p>
         <table class="cart">
             <thead>  
-                <th>Name</th>
-                <th>Price</th>
-                <th>Total</th>
-                <th>Quantity</th>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Quantity</th>
+
+                </tr>
+             
             </thead> 
             <tbody>
                 <tr>
@@ -76,6 +85,12 @@
         </table>
     
         <button class="order">Place order</button>
+    </div>
+    <div class="validator">
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollinkabwama.github.io%2FWAPlabs%2FLab2%2Fabout.html"><img src="../images/htmlchecker.png" alt="html validator"></a>
+
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcollinkabwama.github.io%2FWAPlabs%2FLab2%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="../images/css_checker.png" alt="html validator"></a>
+    
     </div>
 </body>
 </html>
