@@ -77,3 +77,10 @@ label,.greencolored{
 .greencolored{
     background-color: greenyellow;
 }
+.validator{
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+}
