@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab4.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header greencolored">
+            <div class="workshop">
+                <p class="topmostwording">Work Registration</p>            </div>
+            <div class="actions">
+                <form class="actionstop greencolored" action="#">
+                    <select class="actionstop greencolored" name="favoritecharacter">
+                        <option selected value="#">More Actions</option>
+                        <option>Jerry</option>
+                        <option>George</option>
+                        <option >Kramer</option>
+                        <option>Elaine</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="form-1">
+                <p class="underlined-text">Register now while seats are available</p>
+
+                <table>
+                    <form action="">
+                        <tr>
+                            <td><label for="firstname">First Name <span class="required">*</span></label></td>
+                            <td><input class="textfield" type="text" name="firstname" id="firstname"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="lastname">Last Name <span class="required">*</span></label></td>
+                            <td><input class="textfield" type="text" name="lastname" id="lastname"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="company">Company/Institution<span class="required">*</span></label></td>
+                            <td> <input class="textfield" type="text" name="company" id="company"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label class="textarea" for="address">Address <span class="required">*</span></label></td>
+                            <td><textarea class="textfield" name="address" id="address" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">City<span class="required">*</span></label></td>
+                            <td><input class="textfield" type="text" name="city" id="city"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="state">State/Province/Region</label></td>
+                            <td><select class="textfield" name="state" id="state">
+                                <option value="default" selected disabled>-Select-</option>
+                                <option value="iowa">Iowa</option>
+                                <option value="texas">Texas</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="country">Country</label></td>
+                            <td><select class="textfield" name="country" id="country">
+                                <option value="default" selected disabled>-Select-</option>
+                                <option value="uganda">Uganda</option>
+                                <option value="kenya">Kenya</option>
+                            </select></td>
+                        </tr>
+                  
+                        <tr>
+                            <td><label for="email">Email<span class="required">*</span></label></td>
+                            <td><input class="textfield" type="text" name="email" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="number">Phone number<span class="required">*</span></label></td>
+                            <td><input class="textfield" type="text" name="number" id="number"></td>
+                        </tr>
+
+                    </form>
+                </table>
+              
+            </div>
+            <div class="form-2">
+                <p class="underlined-text">Lunch</p>
+                
+                
+
+           
+                <table>
+                    <form action="" class="paymentdetails">
+                        <tr>
+                            <td><label for="">Meal Preference</label></td>
+                            <td><select class="textfield" name="country" id="country">
+                                <option value="veg-1" selected disabled>Vegetarian</option>
+                                <option value="veg-2">Vegetarian</option>
+                               <option value="veg-3">Vegetarian</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="underlined-text">Payment Details</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="3"><label>Payment Mode<span class="required">*</span></label></td>
+                            <td>
+                                <input type="checkbox" name="cash" style="display: inline-block;"> Cash  
+                               
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="cheque"> Cheque</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="draft"> Demand Draft
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="cheque">DD/Cheque No. <span class="required">*</span></label></td>
+                            <td><input class="textfield" type="text" name="cheque" id="cheque"></td>
+                        </tr>
+
+                        <tr>
+                            <td><label for="drawn">Drawn On (Bank Name)<span class="required">*</span></label>
+                            </td>
+                            <td><input class="textfield" type="text" name="drawn" id="drawn">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="payable">Payable at<span class="required">*</span></label></td>
+                            <td><input class="textfield" type="text" name="payable" id="payable"></td>
+                        </tr>
+                        
+                        
+                      
+            
+                    </form>
+                </table>
+
+                
+
+
+
+            </div>
+        </div>
+        <div class="footer">
+            <button class="submit greencolored">Submit</button>
+            <button class="reset greencolored">Reset</button>
+        </div>
+    </div>
+    
+</body>
+</html>

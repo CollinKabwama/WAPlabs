@@ -1,0 +1,79 @@
+.main{
+
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+    
+
+}
+.workshop{
+    margin-left: 10px;
+}
+.actions{
+    margin-left: 25px;
+}
+.actionstop{
+    background-color: aqua;
+    border: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+.forms{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.required{
+    color: red;
+    margin-left: 5px;
+}
+
+.form-1,.form-2{
+    width: 48%;
+}
+/*
+input,textarea,select{
+    float: right;
+    width: 250px;
+}*/
+
+.textfield{
+    width: 250px;   
+}
+textarea{
+    height: 50px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    margin-top: 5px;
+    background-color: lightgrey;
+    padding-top: 6px;
+}
+.submit,.reset{
+    width: 70px;
+    height: 20px;
+    margin: 5px;
+}
+table{
+    width: 100%;
+  
+}
+.underlined-text{
+    text-decoration: underline;
+}
+label,.greencolored{
+    font-weight: bold;
+
+}
+.greencolored{
+    background-color: greenyellow;
+}

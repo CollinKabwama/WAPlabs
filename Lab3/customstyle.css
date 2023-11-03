@@ -16,7 +16,7 @@ border: 2px solid black;
 margin-left: auto;
 margin-right: auto;
 width: 75%;
-height: 520px;
+height: 540px;
 
 }
 table, th, td {
@@ -40,7 +40,7 @@ p{
 
 .top{
 display: flex;
-align-items: center; /* Vertically center children within the container */
+align-items: center;
 justify-content: center;
 border-bottom: 2px solid black;
 margin-left: auto;
@@ -64,7 +64,7 @@ vertical-align: middle;
     cursor: pointer;
 }
 
-.order {
+/*.order {
     position: absolute;
     bottom: 10px;
     right: 40px;
@@ -74,6 +74,23 @@ vertical-align: middle;
     border: none;
     cursor: pointer;
 }
+*/
+.buttoncontainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.order{
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
 .welcome{
     display: block;
     height: 1%;
