@@ -1,20 +1,15 @@
 const express = require('express');
+const path = require('path')
 
 const router = express.Router();
 
 router.get('/', (req,res)=>{
-    console.log("Get user")
-    res.end("Get user")
-
+    res.sendFile(path.join(__dirname,'..','public','users.html'))
 })
 
 router.post('/', (req,res)=>{
-    console.log("Post user")
-    res.end("Post user")
-
+    const user = req.body
+    res.status(201).json({ user })
 })
-
-
-
 
 module.exports = router;
